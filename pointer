@@ -1,0 +1,23 @@
+Nama	: Rivandha Romansa G
+NIM		: 19051397068
+Prodi	: D4 RPL 2019B
+Struktur data
+Pointers
+1.	Mengapa pointer disebut struktur data dinamis?
+Pointer merupakan struktur data yang dinamis karena variable yang di deklarasikan menunjuk pada lokasi alamat memori tertentu dalam RAM. Jadi variable pointer tidak berisi suatu nilai tetapi berisi suatu alamat memori tertentu.
+2.	Apa perbedaan perintah * dan & pada pointer?
+Pada perintah * digunakan untuk menghasilkan reference dari sebuah alamat (Nilai / Value). Sedangkan & digunakan untuk menghasilkan alamat.
+3.	Tuliskan perintah untuk menampilkan alamat dari variabel berikut ini :     
+int a=10;  
+ 
+#include <iostream>
+
+using namespace std;
+int main()
+{
+    int a=10;
+    cout << "alamat a : "<<&a<<endl;
+    cout << "nilai a : "<<a<<endl;
+
+    return 0;
+}
